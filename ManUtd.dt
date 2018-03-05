@@ -1,0 +1,49 @@
+{
+  "version": "1.0",
+  "server":"http://45.77.171.72:4141/",
+  "query": "23869-2178-5491",
+  "latest":{
+    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United",
+    "css": ".central_ln_wrap .newsfeed",
+    "linkId":{},
+    "linkGoc":{}
+  },
+  "top":{
+    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United?type=ts",
+    "css": ".newsmain_wrap .newsfeed  a.hll",
+    "linkId":{
+      "cut":[],
+      "thay":[],
+      "add":[]
+    },
+    "linkGoc":[
+      {"thay": "/A/<d>/A/2/"},
+      {"add": "httppp<d>-ppppp"},
+      {"cut": [
+        "/<d>l-1",
+        "?<d>0"
+      ]},
+      {"direct":""},
+      {"load":[
+        {"<a rel=\"nofollow\" href=\"": "l-1"},
+        {"\"": "0"}
+      ]}
+    ]
+  },
+  "search":{
+    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United?search=<q>",
+    "css": ".central_ln_wrap .newsfeed",
+    "linkId":{},
+    "linkGoc":{}
+  },
+  
+  "tables": [
+    "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null"
+    ],
+  "fixAndRes":{
+    "link":"https://widgets.snack-projects.co.uk/fix-res/all.html?team_id=2",
+    "hideJs":[
+      "document.getElementById('snack_mpu').style.display='none';"
+    ]
+  }
+}
