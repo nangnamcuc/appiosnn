@@ -5,8 +5,15 @@
   "latest":{
     "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United",
     "css": ".central_ln_wrap .newsfeed",
-    "linkId":{},
-    "linkGoc":{}
+    "linkId":[
+      {"cut": [
+        "/<d>l-1",
+        "?<d>0"
+      ]}
+    ],
+    "linkGoc":[
+      {"thay": "/A/<d>/A/2/"}
+    ]
   },
   "top":{
     "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United?type=ts",
@@ -24,10 +31,27 @@
   "search":{
     "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United?search=<q>",
     "css": ".central_ln_wrap .newsfeed",
-    "linkId":{},
-    "linkGoc":{}
+    "linkId":[
+      {"cut": [
+        "/<d>l-1",
+        "?<d>0"
+      ]}
+    ],
+    "linkGoc":[
+      {"thay": "/A/<d>/A/2/"}
+    ]
   },
-  
+  "cate":{
+    "linkId":[
+      {"cut": [
+        "/<d>l-1",
+        "?<d>0"
+      ]}
+    ],
+    "linkGoc":[
+      {"thay": "/A/<d>/A/2/"}
+    ]
+  },
   "tables": [
     "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null"
     ],
