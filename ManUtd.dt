@@ -4,7 +4,7 @@
   "query": "23869-2178-5491",
   "latest":{
     "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United",
-    "css": ".central_ln_wrap .newsfeed",
+    "css": ".central_ln_wrap .newsfeed  a.hll",
     "linkId":[
       {"cut": [
         "/<d>l-1",
@@ -30,7 +30,7 @@
   },
   "search":{
     "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United?search=<q>",
-    "css": ".central_ln_wrap .newsfeed",
+    "css": ".central_ln_wrap .newsfeed  a.hll",
     "linkId":[
       {"cut": [
         "/<d>l-1",
@@ -42,7 +42,7 @@
     ]
   },
   "cate":{
-    "css": ".central_ln_wrap .newsfeed",
+    "css": ".central_ln_wrap .newsfeed  a.hll",
     "linkId":[
       {"cut": [
         "/<d>l-1",
