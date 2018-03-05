@@ -42,6 +42,7 @@
     ]
   },
   "cate":{
+    "css": ".central_ln_wrap .newsfeed",
     "linkId":[
       {"cut": [
         "/<d>l-1",
