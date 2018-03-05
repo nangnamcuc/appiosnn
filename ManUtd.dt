@@ -11,23 +11,14 @@
   "top":{
     "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United?type=ts",
     "css": ".newsmain_wrap .newsfeed  a.hll",
-    "linkId":{
-      "cut":[],
-      "thay":[],
-      "add":[]
-    },
-    "linkGoc":[
-      {"thay": "/A/<d>/A/2/"},
-      {"add": "httppp<d>-ppppp"},
+    "linkId":[
       {"cut": [
         "/<d>l-1",
         "?<d>0"
-      ]},
-      {"direct":""},
-      {"load":[
-        {"<a rel=\"nofollow\" href=\"": "l-1"},
-        {"\"": "0"}
       ]}
+    ],
+    "linkGoc":[
+      {"thay": "/A/<d>/A/2/"}
     ]
   },
   "search":{
