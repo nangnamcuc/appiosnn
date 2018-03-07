@@ -68,7 +68,8 @@
     "hideJs":[
       "document.getElementsByClassName('powered-by')[0].style.display='none';",
       "document.getElementsByClassName('hg-social-logo-block')[0].style.display='none';",
-      "document.getElementsByClassName('hg-brand-header')[0].style.display='none';"
+      "document.getElementsByClassName('hg-brand-header')[0].style.display='none';",
+      "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));}"
     ]
   }
 }
