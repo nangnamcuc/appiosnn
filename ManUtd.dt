@@ -1,3 +1,4 @@
+
 {
   "version": "1.0",
   "server":"http://45.77.171.72:4141/",
@@ -60,6 +61,14 @@
     "link":"https://widgets.snack-projects.co.uk/fix-res/all.html?team_id=2",
     "hideJs":[
       "document.getElementById('snack_mpu').style.display='none';"
+    ]
+  },
+  "detail":{
+    "link":"https://mercury.postlight.com/amp?url=<q>",
+    "hideJs":[
+      "document.getElementsByClassName('powered-by')[0].style.display='none';",
+      "document.getElementsByClassName('hg-social-logo-block')[0].style.display='none';",
+      "document.getElementsByClassName('hg-brand-header')[0].style.display='none';"
     ]
   }
 }
