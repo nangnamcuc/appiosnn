@@ -1,4 +1,5 @@
 
+
 {
   "version": "1.0",
   "server":"http://45.77.171.72:4141/",
@@ -75,5 +76,11 @@
       "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));}"
     ],
     "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')"
-  }
+  },
+  "game":[
+    "14461",
+    "14462",
+    "14463",
+    "14464"
+  ]
 }
