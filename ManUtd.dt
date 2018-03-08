@@ -77,10 +77,13 @@
     ],
     "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')"
   },
-  "game":[
-    "14461",
-    "14462",
-    "14463",
-    "14464"
-  ]
+  "game":{
+    "question":"<name> is a ...?",
+    "cate":[
+      "14461",
+      "14462",
+      "14463",
+      "14464"
+    ]
+  }
 }
