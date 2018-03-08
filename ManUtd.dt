@@ -71,7 +71,7 @@
       "document.getElementsByClassName('hg-brand-header')[0].style.display='none';",
       "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));}",
       "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-      "document.getElementsByTagName('amp-img')[0].style.display='none';",
+      "var x = document.getElementsByTagName('amp-img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
       "document.getElementsByClassName('hg-byline')[0].style.display='none';"
     ],
     "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')"
