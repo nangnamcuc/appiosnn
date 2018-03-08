@@ -78,6 +78,7 @@
     "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')"
   },
   "game":{
+    "num":"15"
     "question":"<name> is a ...?",
     "cate":[
       "14461",
