@@ -63,19 +63,46 @@
       "document.getElementById('snack_mpu').style.display='none';"
     ]
   },
-  "detail":{
-    "link":"https://mercury.postlight.com/amp?url=<q>",
-    "hideJs":[
-      "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-      "var x = document.getElementsByTagName('amp-img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');x[i].setAttribute('height','0px');}",
-      "document.getElementsByClassName('powered-by')[0].style.display='none';",
-      "document.getElementsByClassName('hg-social-logo-block')[0].style.display='none';",
-      "document.getElementsByClassName('hg-brand-header')[0].style.display='none';",
-      "document.getElementsByClassName('hg-byline')[0].style.display='none';",
-      "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));}"
-    ],
-    "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')"
-  },
+  "detail":[
+    {
+      "link":"https://mercury.postlight.com/amp?url=<q>",
+      "action":"loadUrl",
+      "hideJs":[
+        "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
+        "var x = document.getElementsByTagName('amp-img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');x[i].setAttribute('height','0px');}",
+        "document.getElementsByClassName('powered-by')[0].style.display='none';",
+        "document.getElementsByClassName('hg-social-logo-block')[0].style.display='none';",
+        "document.getElementsByClassName('hg-brand-header')[0].style.display='none';",
+        "document.getElementsByClassName('hg-byline')[0].style.display='none';",
+        "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));}"
+      ],
+      "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')",
+      "error":"We were unable to complete your request."
+    },
+    {
+      "link":"http://ftr.fivefilters.org/makefulltextfeed.php?url=<q>",
+      "action":"loadString",
+      "getCont":[
+        {"cut": [
+          "<description><d>l-1",
+          "&lt;strong&gt;&lt;a href=&quot;https://blockads.fivefilters.org<d>0"
+        ]},
+        {"thay": "&lt;<d><"},
+        {"thay": "&lt;<d><"},
+        {"thay": "&quot;<d>'"}
+      ],
+      "hideJs":[
+        "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}"
+      ],
+      "linkShare":[
+        {"cut": [
+          "<dc:identifier><d>l-1",
+          "</dc:identifier><d>0"
+        ]}
+      ],
+      "errorLength": 300
+    }
+  ],
   "game":{
     "num":"15",
     "question":"<name> is a ...?",
