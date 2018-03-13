@@ -101,6 +101,15 @@
         ]}
       ],
       "errorLength": 300
+    },
+    {
+      "link":"<q>",
+      "action":"loadUrl",
+      "hideJs":[
+        "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}"
+      ],
+      "linkShare":"",
+      "error":""
     }
   ],
   "game":{
