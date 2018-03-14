@@ -77,7 +77,7 @@
         "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));}"
       ],
       "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')",
-      "error":"We were unable to complete your request."
+      "error":"We were unable to complete your request.<d>>Access Denied</h1>"
     },
     {
       "link":"http://ftr.fivefilters.org/makefulltextfeed.php?url=<q>",
