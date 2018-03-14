@@ -54,15 +54,21 @@
       {"thay": "/A/<d>/A/2/"}
     ]
   },
-  "tables": [
-    "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null"
-    ],
-  "fixAndRes":{
-    "link":"https://widgets.snack-projects.co.uk/fix-res/all.html?team_id=2",
-    "hideJs":[
-      "document.getElementById('snack_mpu').style.display='none';"
-    ]
-  },
+  "more":[
+    {
+      "name": "Table",
+      "link": "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null",
+      "hideJs":[
+      ]
+    },
+    {
+      "name": "Fixtures and Results",
+      "link": "https://widgets.snack-projects.co.uk/fix-res/all.html?team_id=2",
+      "hideJs":[
+        "document.getElementById('snack_mpu').style.display='none';"
+      ]
+    }
+  ],
   "detail":[
     {
       "link":"https://mercury.postlight.com/amp?url=<q>",
