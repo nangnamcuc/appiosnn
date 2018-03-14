@@ -88,7 +88,7 @@
           "&lt;strong&gt;&lt;a href=&quot;https://blockads.fivefilters.org<d>0"
         ]},
         {"thay": "&lt;<d><"},
-        {"thay": "&lt;<d><"},
+        {"thay": "&gt;<d>>"},
         {"thay": "&quot;<d>'"}
       ],
       "hideJs":[
