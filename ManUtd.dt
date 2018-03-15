@@ -56,23 +56,23 @@
   },
   "more":[
     {
-      "name": "Tables",
-      "link": "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null",
+      "name": "Fixtures",
+      "link": "http://www.skysports.com/manchester-united-fixtures",
       "hideJs":[
+        "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}x = document.querySelectorAll('matches__betting');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('img');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){if(x[i].getAttribute('hidden') == true){x[i].style.display='none';}}"
       ]
     },
     {
       "name": "Results",
       "link": "http://www.skysports.com/manchester-united-results",
       "hideJs":[
-        "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}x = document.querySelectorAll('matches__betting');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('img');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}"
+        "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}x = document.querySelectorAll('matches__betting');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('img');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){if(x[i].getAttribute('hidden') == true){x[i].style.display='none';}}"
       ]
     },
     {
-      "name": "Fixtures",
-      "link": "http://www.skysports.com/manchester-united-fixtures",
+      "name": "Tables",
+      "link": "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null",
       "hideJs":[
-        "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}x = document.querySelectorAll('matches__betting');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('img');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}"
       ]
     }
   ],
