@@ -56,20 +56,20 @@
   },
   "more":[
     {
-      "name": "Table",
+      "name": "Manchester United Tables",
       "link": "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null",
       "hideJs":[
       ]
     },
     {
-      "name": "Fixtures and Results",
-      "link": "https://widgets.snack-projects.co.uk/fix-res/all.html?team_id=2",
+      "name": "Manchester United Results",
+      "link": "http://www.skysports.com/manchester-united-results",
       "hideJs":[
-        "document.getElementById('snack_mpu').style.display='none';"
+        "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}x = document.querySelectorAll('matches__betting');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('img');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}"
       ]
     },
     {
-      "name": "testttt",
+      "name": "Manchester United Fixtures",
       "link": "http://www.skysports.com/manchester-united-fixtures",
       "hideJs":[
         "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}x = document.querySelectorAll('matches__betting');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('img');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}"
