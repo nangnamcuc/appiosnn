@@ -67,6 +67,13 @@
       "hideJs":[
         "document.getElementById('snack_mpu').style.display='none';"
       ]
+    },
+    {
+      "name": "testttt",
+      "link": "http://www.skysports.com/manchester-united-fixtures",
+      "hideJs":[
+        "document.getElementById('snack_mpu').style.display='none';"
+      ]
     }
   ],
   "detail":[
