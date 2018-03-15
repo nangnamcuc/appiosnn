@@ -72,7 +72,7 @@
       "name": "testttt",
       "link": "http://www.skysports.com/manchester-united-fixtures",
       "hideJs":[
-        "document.getElementById('snack_mpu').style.display='none';"
+        "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}"
       ]
     }
   ],
