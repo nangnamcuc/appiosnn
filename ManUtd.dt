@@ -111,7 +111,7 @@
         {"thay": "&lt;<d><"},
         {"thay": "&gt;<d>>"},
         {"thay": "&quot;<d>'"},
-        {"add": "<html><head><meta name='viewport' content='width=device-width, initial-scale=1.0'></head><body><ddd><body></html>"}
+        {"add": "<html><head><meta name='viewport' content='width=device-width, initial-scale=1.0'><style>*{color:black;}a{color:black;text-decoration:none}</style></head><body><ddd><body></html>"}
       ],
       "hideJs":[
         "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
