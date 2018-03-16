@@ -98,7 +98,7 @@
         "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));x[i].setAttribute('style','color:#3f3a2d;text-decoration:none;border-bottom:0px');}"
       ],
       "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')",
-      "error":"We were unable to complete your request.<d>>Access Denied</h1>"
+      "error":"We were unable to complete your request.<d>>Access Denied</h1><d>>403 Forbidden</h1>"
     },
     {
       "link":"http://ftr.fivefilters.org/makefulltextfeed.php?url=<q>",
