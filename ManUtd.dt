@@ -116,7 +116,6 @@
       "hideJs":[
         "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
         "var x = document.getElementsByTagName('video');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-        "var x = document.getElementsByTagName('section');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
         "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}"
       ],
       "linkShare":[
@@ -126,18 +125,6 @@
         ]}
       ],
       "errorLength": 400
-    },
-    {
-      "link":"<q>",
-      "action":"loadUrl",
-      "hideJs":[
-        "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-        "var x = document.getElementsByTagName('video');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-        "var x = document.getElementsByTagName('section');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-        "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}"
-      ],
-      "linkShare":"",
-      "error":""
     }
   ],
   "game":{
