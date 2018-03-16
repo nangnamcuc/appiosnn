@@ -85,6 +85,23 @@
   ],
   "detail":[
     {
+      "link":"https://mercury.postlight.com/amp?url=<q>",
+      "action":"loadUrl",
+      "hideJs":[
+        "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
+        "var x = document.getElementsByTagName('video');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
+        "var x = document.getElementsByTagName('section');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
+        "var x = document.getElementsByTagName('amp-img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');x[i].setAttribute('height','0px');}",
+        "document.getElementsByClassName('powered-by')[0].style.display='none';",
+        "document.getElementsByClassName('hg-social-logo-block')[0].style.display='none';",
+        "document.getElementsByClassName('hg-brand-header')[0].style.display='none';",
+        "document.getElementsByClassName('hg-byline')[0].style.display='none';",
+        "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));}"
+      ],
+      "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')",
+      "error":"We were unable to complete your request.<d>>Access Denied</h1>"
+    },
+    {
       "link":"http://ftr.fivefilters.org/makefulltextfeed.php?url=<q>",
       "action":"loadString",
       "getCont":[
@@ -110,23 +127,6 @@
         ]}
       ],
       "errorLength": 300
-    },
-    {
-      "link":"https://mercury.postlight.com/amp?url=<q>",
-      "action":"loadUrl",
-      "hideJs":[
-        "var x = document.getElementsByTagName('img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-        "var x = document.getElementsByTagName('video');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-        "var x = document.getElementsByTagName('section');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');}",
-        "var x = document.getElementsByTagName('amp-img');for(var i=0;i<x.length;i++){x[i].setAttribute('style','display:none');x[i].setAttribute('height','0px');}",
-        "document.getElementsByClassName('powered-by')[0].style.display='none';",
-        "document.getElementsByClassName('hg-social-logo-block')[0].style.display='none';",
-        "document.getElementsByClassName('hg-brand-header')[0].style.display='none';",
-        "document.getElementsByClassName('hg-byline')[0].style.display='none';",
-        "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));}"
-      ],
-      "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')",
-      "error":"We were unable to complete your request.<d>>Access Denied</h1>"
     },
     {
       "link":"<q>",
