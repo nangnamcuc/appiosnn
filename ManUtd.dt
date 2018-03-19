@@ -132,15 +132,6 @@
         ]}
       ],
       "errorLength": 400
-    },
-    {
-      "link":"<q>",
-      "action":"loadUrl",
-      "hideJs":[
-        "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}"
-      ],
-      "linkShare":"",
-      "error":""
     }
   ],
   "game":{
