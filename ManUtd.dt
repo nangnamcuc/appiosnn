@@ -74,7 +74,10 @@
       "link": "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null",
       "hideJs":[
       ]
-    },
+    }
+    
+  ],
+  "more1":[
     {
       "name": "Players",
       "link": "http://www.tablesleague.com/teams/manchester_united12/",
@@ -98,7 +101,7 @@
         "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','https://mercury.postlight.com/amp?url='+encodeURI(x[i].getAttribute('href')));x[i].setAttribute('style','color:#3f3a2d;text-decoration:none;border-bottom:0px');}"
       ],
       "linkShare":"document.getElementsByTagName('link')[0].getAttribute('href')",
-      "error":"We were unable to complete your request.<d>>Access Denied</h1><d>>403 Forbidden</h1>"
+      "error":"We were unable to complete your request.<d>>Access Denied</h1><d>>403 Forbidden</h1><d>Internal server error"
     },
     {
       "link":"http://ftr.fivefilters.org/makefulltextfeed.php?url=<q>",
@@ -125,6 +128,15 @@
         ]}
       ],
       "errorLength": 400
+    },
+    {
+      "link":"<q>",
+      "action":"loadUrl",
+      "hideJs":[
+        "var x = document.getElementsByTagName('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}"
+      ],
+      "linkShare":"",
+      "error":""
     }
   ],
   "game":{
