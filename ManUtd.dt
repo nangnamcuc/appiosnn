@@ -3,6 +3,10 @@
   "server":"http://45.77.171.72:4141/",
   "serverChat":"http://45.77.171.72:5000",
   "query": "23869-2178-5491",
+  "AdsIdAppAds": "ca-app-pub-3988316244362361~3513216050",
+  "AdsIdBanner": "ca-app-pub-3988316244362361/4443154340",
+  "AdsIdNative": "",
+  "AdsIdFullmh": "ca-app-pub-3988316244362361/9939023606",
   "latest":{
     "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United",
     "css": ".central_ln_wrap .newsfeed  a.hll",
