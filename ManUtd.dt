@@ -93,7 +93,13 @@
       "hideJs":[
         "var y = document.querySelectorAll('a');for(var i=0;i<y.length;i++){y[i].setAttribute('href','javascript:void(null);');}y = document.querySelectorAll('.table_box');for(var i=0;i<y.length;i++){y[i].setAttribute('style','width:100%');}y = document.querySelectorAll('.table');for(var i=0;i<y.length;i++){y[i].setAttribute('style','width:100%');}var meta = document.createElement('meta');meta.setAttribute('name','viewport');meta.setAttribute('content','width=device-width, initial-scale=1.0');document.getElementsByTagName('head')[0].appendChild(meta);"
       ]
-    }
+    },
+            {
+            "name": "Other Tables",
+            "link": "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null",
+            "hideJs":[
+            ]
+            }
   ],
   "more1":[
     {
