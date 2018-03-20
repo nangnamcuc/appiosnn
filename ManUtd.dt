@@ -75,26 +75,26 @@
     },
     {
       "name": "Premier League Tables",
-      "link": "http://www.tablesleague.com/iframe?width=100%&height=400&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=0&goals_against=0&gd=0&points=1&next=0&form=0&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_145&team=1509",
+      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=0&goals_against=0&gd=0&points=1&next=0&form=0&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_145&team=1509",
       "hideJs":[
         "var x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}",
-        "var x = document.getElementsByTagName('html')[0].innerHTML;x=x.replace('100%px','100%')"
+        "var x = document.getElementsByTagName('html')[0].innerHTML;x=x.replace('320pxpx','100%')"
       ]
     },
     {
       "name": "Champions League Tables",
-      "link": "http://www.tablesleague.com/iframe?width=100%&height=400&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=0&goals_ag%20ainst=0&gd=0&points=1&next=0&form=0&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_248&team=1509",
+      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=0&goals_ag%20ainst=0&gd=0&points=1&next=0&form=0&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_248&team=1509",
       "hideJs":[
         "var x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}",
-        "var x = document.getElementsByTagName('html')[0].innerHTML;x=x.replace('100%px','100%')"
+        "var x = document.getElementsByTagName('html')[0].innerHTML;x=x.replace('320pxpx','100%')"
       ]
     },
     {
       "name": "FA Cup Tables",
-      "link": "http://www.tablesleague.com/iframe?width=100%&height=100%&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=1&goals_against=1&gd=1&points=1&next=1&form=1&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_150&team=1509",
+      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=1&goals_against=1&gd=1&points=1&next=1&form=1&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_150&team=1509",
       "hideJs":[
         "var x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}",
-        "var x = document.getElementsByTagName('html')[0].innerHTML;x=x.replace('100%px','100%')"
+        "var x = document.getElementsByTagName('html')[0].innerHTML;x=x.replace('320pxpx','100%')"
       ]
     }
   ],
