@@ -3,15 +3,15 @@
   "version": "1.0",
   "server":"http://45.77.171.72:4141/",
   "serverChat":"http://45.77.171.72:5000",
-  "query": "23869-2178-5491",
-  "AdsIdAppAds": "ca-app-pub-3988316244362361~3513216050",
+  "query": "23869-2178-844",
+  "AdsIdAppAds": "ca-app-pub-3988316244362361~7417242981",
   "AdsIdBanner": "",
   "AdsIdNative": "",
-  "AdsIdFullmh": "ca-app-pub-3988316244362361/9939023606",
+  "AdsIdFullmh": "ca-app-pub-3988316244362361/7261330319",
   "AdsFullRand": "15",
   "AdsFullFirs": "0",
   "latest":{
-    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United",
+    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Arsenal",
     "css": ".central_ln_wrap .newsfeed  a.hll",
     "linkId":[
       {"cut": [
@@ -24,7 +24,7 @@
     ]
   },
   "top":{
-    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United?type=ts",
+    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Arsenal?type=ts",
     "css": ".newsmain_wrap .newsfeed  a.hll",
     "linkId":[
       {"cut": [
@@ -37,7 +37,7 @@
     ]
   },
   "search":{
-    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Manchester+United?search=<q>",
+    "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Arsenal?search=<q>",
     "css": ".central_ln_wrap .newsfeed  a.hll",
     "linkId":[
       {"cut": [
@@ -64,42 +64,42 @@
   "more":[
     {
       "name": "Fixtures",
-      "link": "http://www.skysports.com/manchester-united-fixtures",
+      "link": "http://www.skysports.com/arsenal-fixtures",
       "hideJs":[
         "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}x = document.querySelectorAll('matches__betting');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('img');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){if(x[i].hidden == true){x[i].style.display='none';x[i].removeAttribute('hidden');}}"
       ]
     },
     {
       "name": "Results",
-      "link": "http://www.skysports.com/manchester-united-results",
+      "link": "http://www.skysports.com/arsenal-results",
       "hideJs":[
         "var x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('.fixres__body *');for(var i=0;i<x.length;i++){x[i].hidden = false;}x = document.querySelectorAll('.fixres__body');for(var i=0;i<x.length;i++){var tag = x[i];while (tag.nodeName.toLowerCase() != 'body'){tag.hidden = false;tag = tag.parentElement;}}x = document.querySelectorAll('matches__betting');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('img');for(var i=0;i<x.length;i++){x[i].hidden=true;}x = document.querySelectorAll('a');for(var i=0;i<x.length;i++){x[i].setAttribute('href','javascript:void(null);');}x = document.body.getElementsByTagName('*');for(var i=0;i<x.length;i++){if(x[i].hidden == true){x[i].style.display='none';x[i].removeAttribute('hidden');}}"
       ]
     },
     {
       "name": "Premier League Tables",
-      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=0&goals_against=0&gd=0&points=1&next=0&form=0&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_145&team=1509",
+      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=0&goals_against=0&gd=0&points=1&next=0&form=0&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_145&team=1334",
       "hideJs":[
         "var y = document.querySelectorAll('a');for(var i=0;i<y.length;i++){y[i].setAttribute('href','javascript:void(null);');}y = document.querySelectorAll('.table_box');for(var i=0;i<y.length;i++){y[i].setAttribute('style','width:100%');}y = document.querySelectorAll('.table');for(var i=0;i<y.length;i++){y[i].setAttribute('style','width:100%');}var meta = document.createElement('meta');meta.setAttribute('name','viewport');meta.setAttribute('content','width=device-width, initial-scale=1.0');document.getElementsByTagName('head')[0].appendChild(meta);"
       ]
     },
     {
       "name": "Champions League Tables",
-      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=0&goals_ag%20ainst=0&gd=0&points=1&next=0&form=0&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_248&team=1509",
+      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=0&goals_ag%20ainst=0&gd=0&points=1&next=0&form=0&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_244&team=1334",
       "hideJs":[
         "var y = document.querySelectorAll('a');for(var i=0;i<y.length;i++){y[i].setAttribute('href','javascript:void(null);');}y = document.querySelectorAll('.table_box');for(var i=0;i<y.length;i++){y[i].setAttribute('style','width:100%');}y = document.querySelectorAll('.table');for(var i=0;i<y.length;i++){y[i].setAttribute('style','width:100%');}var meta = document.createElement('meta');meta.setAttribute('name','viewport');meta.setAttribute('content','width=device-width, initial-scale=1.0');document.getElementsByTagName('head')[0].appendChild(meta);"
       ]
     },
     {
       "name": "FA Cup Tables",
-      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=1&goals_against=1&gd=1&points=1&next=1&form=1&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_150&team=1509",
+      "link": "http://www.tablesleague.com/iframe?width=320px&height=320px&font_name=Tahoma&position=1&font_size=12&team_link=1&link_color=404040&games=1&wins=1&draws=1&lost=1&goals=1&goals_against=1&gd=1&points=1&next=1&form=1&font_size=12&font_color=000000&bg_color=FFFFFF&header_font_color=FFFFFF&header_bg_color=1fb9e4&bg_col=1fb9e4&font_color_col=FFFFFF&highlight=e3e3e3&hover=fff6bf&league_header=1&league=l_150&team=1334",
       "hideJs":[
         "var y = document.querySelectorAll('a');for(var i=0;i<y.length;i++){y[i].setAttribute('href','javascript:void(null);');}y = document.querySelectorAll('.table_box');for(var i=0;i<y.length;i++){y[i].setAttribute('style','width:100%');}y = document.querySelectorAll('.table');for(var i=0;i<y.length;i++){y[i].setAttribute('style','width:100%');}var meta = document.createElement('meta');meta.setAttribute('name','viewport');meta.setAttribute('content','width=device-width, initial-scale=1.0');document.getElementsByTagName('head')[0].appendChild(meta);"
       ]
     },
             {
             "name": "Other Tables",
-            "link": "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=2&table_limit=null",
+            "link": "https://widgets.snack-projects.co.uk/table/?comp_id=2&table_theme=red&team_id=18&table_limit=null",
             "hideJs":[
             ]
          }
@@ -107,7 +107,7 @@
   "more1":[
     {
       "name": "Players",
-      "link": "http://www.tablesleague.com/teams/manchester_united12/",
+      "link": "http://www.tablesleague.com/teams/arsenal1/",
       "hideJs":[
         "var x = document.body.getElementsByTagName('*');for (var i = 0; i < x.length; i++) {x[i].hidden = true;}x = document.querySelectorAll('.position_name *');for (var i = 0; i < x.length; i++) {x[i].hidden = false;}x = document.querySelectorAll('.position_name');for (var i = 0; i < x.length; i++) {var tag = x[i];tag.nextElementSibling.hidden = false;var y = tag.nextElementSibling.getElementsByTagName('*');for (var j = 0; j < y.length; j++) {y[j].hidden = false;}while (tag.nodeName.toLowerCase() != 'body') {tag.hidden = false;tag.style.width='100%';tag = tag.parentElement;}}x = document.querySelectorAll('a');for (var i = 0; i < x.length; i++) {x[i].setAttribute('href', 'javascript:void(null);');}x = document.body.getElementsByTagName('*');for (var i = 0; i < x.length; i++) {if (x[i].hidden == true) {x[i].remove();i--;}}var metaTag = document.createElement('meta');metaTag.setAttribute('name', 'viewport');metaTag.setAttribute('content', 'width=device-width, initial-scale=1.0');document.getElementsByTagName('head')[0].appendChild(metaTag);x=document.getElementsByTagName('script');while(x.length>0){x[0].remove();}setInterval(function(){ var t = document.getElementById('fixed_box');if(t){t.remove();} }, 100);"
       ]
@@ -161,10 +161,10 @@
     "num":"15",
     "question":"<name> is a ...?",
     "cate":[
-      "14461",
-      "14462",
-      "14463",
-      "14464"
+      "14432",
+      "14433",
+      "14434",
+      "14435"
     ]
   }
 }
