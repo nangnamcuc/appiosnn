@@ -61,6 +61,36 @@
       {"thay": "/A/<d>/A/2/"}
     ]
   },
+  "moreMenu":[
+    {
+      "name":"Premier League News",
+      "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League",
+      "css": ".central_ln_wrap .newsfeed  a.hll",
+      "linkId":[
+        {"cut": [
+          "/<d>l-1",
+          "?<d>0"
+        ]}
+      ],
+      "linkGoc":[
+        {"thay": "/A/<d>/A/2/"}
+      ]
+    },
+    {
+      "name":"Premier League Transfer News",
+      "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Transfer+News",
+      "css": ".central_ln_wrap .newsfeed  a.hll",
+      "linkId":[
+        {"cut": [
+          "/<d>l-1",
+          "?<d>0"
+        ]}
+      ],
+      "linkGoc":[
+        {"thay": "/A/<d>/A/2/"}
+      ]
+    }
+  ],
   "more":[
     {
       "name": "Fixtures",
