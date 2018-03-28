@@ -62,7 +62,6 @@
   },
   "moreMenu":[
     {
-      "id":"-10",
       "name":"Premier League News",
       "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League",
       "css": ".central_ln_wrap .newsfeed  a.hll",
@@ -77,7 +76,6 @@
       ]
     },
     {
-      "id":"-10",
       "name":"Premier League Transfer News",
       "link": "http://www.newsnow.co.uk/h/Sport/Football/Premier+League/Transfer+News",
       "css": ".central_ln_wrap .newsfeed  a.hll",
