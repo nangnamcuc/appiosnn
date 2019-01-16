@@ -1,8 +1,8 @@
 
 {
   "version": "1.0",
-  "server":"http://45.77.171.72:4141/",
-  "serverChat":"http://45.77.171.72:5000",
+  "server":"http://news2.eu:4141/",
+  "serverChat":"http://news2.eu:5000",
   "query": "23869-2178-844",
   "AdsIdAppAds": "ca-app-pub-3988316244362361~7417242981",
   "AdsIdBanner": "",
